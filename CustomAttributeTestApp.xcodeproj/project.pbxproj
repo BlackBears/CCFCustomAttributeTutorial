@@ -11,8 +11,14 @@
 		E7E16021163E964800C1A7D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E1601F163E964800C1A7D5 /* InfoPlist.strings */; };
 		E7E16023163E964800C1A7D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16022163E964800C1A7D5 /* main.m */; };
 		E7E16027163E964800C1A7D5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7E16025163E964800C1A7D5 /* Credits.rtf */; };
-		E7E1602A163E964800C1A7D5 /* CCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16029163E964800C1A7D5 /* CCFAppDelegate.m */; };
 		E7E1602D163E964800C1A7D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E1602B163E964800C1A7D5 /* MainMenu.xib */; };
+		E7E1603F163E96DD00C1A7D5 /* CCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E1603D163E96DD00C1A7D5 /* CCFAppDelegate.m */; };
+		E7E16042163E983A00C1A7D5 /* CCFMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16041163E983A00C1A7D5 /* CCFMainWindowController.m */; };
+		E7E16045163E990B00C1A7D5 /* CCFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16044163E990B00C1A7D5 /* CCFTextView.m */; };
+		E7E16048163E994A00C1A7D5 /* CCFCustomLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16047163E994A00C1A7D5 /* CCFCustomLayoutManager.m */; };
+		E7E16071163EC0F400C1A7D5 /* CCFInitialDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7E16070163EC0F400C1A7D5 /* CCFInitialDefaults.plist */; };
+		E7E16075163EC2FC00C1A7D5 /* CCFUserDefaultConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16074163EC2FC00C1A7D5 /* CCFUserDefaultConstants.m */; };
+		E7E16078163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E16077163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +32,20 @@
 		E7E16022163E964800C1A7D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E16024163E964800C1A7D5 /* CustomAttributeTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAttributeTestApp-Prefix.pch"; sourceTree = "<group>"; };
 		E7E16026163E964800C1A7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E7E16028163E964800C1A7D5 /* CCFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFAppDelegate.h; sourceTree = "<group>"; };
-		E7E16029163E964800C1A7D5 /* CCFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFAppDelegate.m; sourceTree = "<group>"; };
 		E7E1602C163E964800C1A7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E7E1603C163E96DD00C1A7D5 /* CCFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFAppDelegate.h; sourceTree = "<group>"; };
+		E7E1603D163E96DD00C1A7D5 /* CCFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFAppDelegate.m; sourceTree = "<group>"; };
+		E7E16040163E983A00C1A7D5 /* CCFMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFMainWindowController.h; sourceTree = "<group>"; };
+		E7E16041163E983A00C1A7D5 /* CCFMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFMainWindowController.m; sourceTree = "<group>"; };
+		E7E16043163E990B00C1A7D5 /* CCFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFTextView.h; sourceTree = "<group>"; };
+		E7E16044163E990B00C1A7D5 /* CCFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFTextView.m; sourceTree = "<group>"; };
+		E7E16046163E994A00C1A7D5 /* CCFCustomLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFCustomLayoutManager.h; sourceTree = "<group>"; };
+		E7E16047163E994A00C1A7D5 /* CCFCustomLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFCustomLayoutManager.m; sourceTree = "<group>"; };
+		E7E16070163EC0F400C1A7D5 /* CCFInitialDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCFInitialDefaults.plist; sourceTree = "<group>"; };
+		E7E16073163EC2FC00C1A7D5 /* CCFUserDefaultConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFUserDefaultConstants.h; sourceTree = "<group>"; };
+		E7E16074163EC2FC00C1A7D5 /* CCFUserDefaultConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFUserDefaultConstants.m; sourceTree = "<group>"; };
+		E7E16076163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFDataToColorValueTransformer.h; sourceTree = "<group>"; };
+		E7E16077163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFDataToColorValueTransformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +99,12 @@
 		E7E1601C163E964800C1A7D5 /* CustomAttributeTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				E7E16028163E964800C1A7D5 /* CCFAppDelegate.h */,
-				E7E16029163E964800C1A7D5 /* CCFAppDelegate.m */,
+				E7E16035163E96DD00C1A7D5 /* model */,
+				E7E1603B163E96DD00C1A7D5 /* singletons */,
+				E7E16034163E96DD00C1A7D5 /* helper+managers */,
+				E7E16033163E96DD00C1A7D5 /* controllers */,
+				E7E16036163E96DD00C1A7D5 /* resources */,
+				E7E1603E163E96DD00C1A7D5 /* view */,
 				E7E1602B163E964800C1A7D5 /* MainMenu.xib */,
 				E7E1601D163E964800C1A7D5 /* Supporting Files */,
 			);
@@ -98,8 +119,95 @@
 				E7E16022163E964800C1A7D5 /* main.m */,
 				E7E16024163E964800C1A7D5 /* CustomAttributeTestApp-Prefix.pch */,
 				E7E16025163E964800C1A7D5 /* Credits.rtf */,
+				E7E16073163EC2FC00C1A7D5 /* CCFUserDefaultConstants.h */,
+				E7E16074163EC2FC00C1A7D5 /* CCFUserDefaultConstants.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E16033163E96DD00C1A7D5 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7E16040163E983A00C1A7D5 /* CCFMainWindowController.h */,
+				E7E16041163E983A00C1A7D5 /* CCFMainWindowController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		E7E16034163E96DD00C1A7D5 /* helper+managers */ = {
+			isa = PBXGroup;
+			children = (
+				E7E16046163E994A00C1A7D5 /* CCFCustomLayoutManager.h */,
+				E7E16047163E994A00C1A7D5 /* CCFCustomLayoutManager.m */,
+				E7E16076163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.h */,
+				E7E16077163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.m */,
+			);
+			path = "helper+managers";
+			sourceTree = "<group>";
+		};
+		E7E16035163E96DD00C1A7D5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E7E16036163E96DD00C1A7D5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7E16037163E96DD00C1A7D5 /* html */,
+				E7E16038163E96DD00C1A7D5 /* images */,
+				E7E16039163E96DD00C1A7D5 /* misc */,
+				E7E1603A163E96DD00C1A7D5 /* plists */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		E7E16037163E96DD00C1A7D5 /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		E7E16038163E96DD00C1A7D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E7E16039163E96DD00C1A7D5 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		E7E1603A163E96DD00C1A7D5 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				E7E16070163EC0F400C1A7D5 /* CCFInitialDefaults.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		E7E1603B163E96DD00C1A7D5 /* singletons */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1603C163E96DD00C1A7D5 /* CCFAppDelegate.h */,
+				E7E1603D163E96DD00C1A7D5 /* CCFAppDelegate.m */,
+			);
+			path = singletons;
+			sourceTree = "<group>";
+		};
+		E7E1603E163E96DD00C1A7D5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7E16043163E990B00C1A7D5 /* CCFTextView.h */,
+				E7E16044163E990B00C1A7D5 /* CCFTextView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +265,7 @@
 				E7E16021163E964800C1A7D5 /* InfoPlist.strings in Resources */,
 				E7E16027163E964800C1A7D5 /* Credits.rtf in Resources */,
 				E7E1602D163E964800C1A7D5 /* MainMenu.xib in Resources */,
+				E7E16071163EC0F400C1A7D5 /* CCFInitialDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E16023163E964800C1A7D5 /* main.m in Sources */,
-				E7E1602A163E964800C1A7D5 /* CCFAppDelegate.m in Sources */,
+				E7E1603F163E96DD00C1A7D5 /* CCFAppDelegate.m in Sources */,
+				E7E16042163E983A00C1A7D5 /* CCFMainWindowController.m in Sources */,
+				E7E16045163E990B00C1A7D5 /* CCFTextView.m in Sources */,
+				E7E16048163E994A00C1A7D5 /* CCFCustomLayoutManager.m in Sources */,
+				E7E16075163EC2FC00C1A7D5 /* CCFUserDefaultConstants.m in Sources */,
+				E7E16078163EC43D00C1A7D5 /* CCFDataToColorValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +412,7 @@
 				E7E16032163E964800C1A7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

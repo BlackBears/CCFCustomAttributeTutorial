@@ -21,8 +21,7 @@
 }
 
 - (id)transformedValue:(id)value {
-    return (NSString *)[NSKeyedUnarchiver unarchiveObjectWithData:value];
-    
+    return (NSColor *)[NSKeyedUnarchiver unarchiveObjectWithData:value];
 }
 
 - (id)reverseTransformedValue:(id)value {

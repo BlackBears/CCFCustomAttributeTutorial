@@ -1,15 +1,17 @@
-//
-//  CCFAppDelegate.h
-//  CustomAttributeTestApp
-//
-//  Created by alanduncan on 10/29/12.
-//  Copyright (c) 2012 Cocoa Factory, LLC. All rights reserved.
-//
+/**
+ *   @file CCFAppDelegate.h
+ *   @author Alan Duncan (www.cocoafactory.com)
+ *
+ *   @date 2012-10-29 05:56:12
+ *   @version 1.0
+ *
+ *   @note Copyright 2011 Cocoa Factory, LLC.  All rights reserved
+ */
 
-#import <Cocoa/Cocoa.h>
+@class CCFMainWindowController;
 
 @interface CCFAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet CCFMainWindowController *windowController;
 
 @end
